@@ -1,0 +1,118 @@
+.banner{
+    background-image: url("./../img/banner.jpg");
+    background-repeat: no-repeat;
+background-position: center;
+background-origin: border-box;
+background-size: cover;
+height:700px;
+width:100%;
+}
+
+.grid.photo-grid{
+    padding-top:30px;
+}
+
+.photo-grid .photo-grid_item{
+background-repeat: no-repeat;
+background-position: center;
+background-origin: border-box;
+background-size: cover;
+height:200px;
+width:100%;
+}
+
+.photo-grid .photo-grid_item#image1{
+background-image: url("./../img/image1.jpeg");
+}
+
+.photo-grid .photo-grid_item#image2{
+background-image: url("./../img/image2.jpeg");
+height:300px;
+}
+
+.photo-grid .photo-grid_item#image3{
+background-image: url("./../img/image3.jpeg");
+height:300px;
+}
+
+.photo-grid .photo-grid_item#image4{
+background-image: url("./../img/image4.jpeg");
+height:250px;
+}
+
+.photo-grid .photo-grid_item#image5{
+background-image: url("./../img/image5.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image6{
+background-image: url("./../img/image6.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image7{
+background-image: url("./../img/image7.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image8{
+background-image: url("./../img/image8.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image9{
+background-image: url("./../img/image9.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image10{
+background-image: url("./../img/image10.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image11{
+background-image: url("./../img/image11.jpeg");
+
+}
+
+.photo-grid .photo-grid_item#image12{
+background-image: url("./../img/image12.jpeg");
+
+}
+
+.ui.carousal{
+height:80%;
+position: absolute;
+
+}
+
+.ui.carousal .ui.segment{
+    height:100%;
+}
+
+.ui.carousal .ui.segment .carousal-item{
+background-repeat: no-repeat;
+background-position: center;
+background-origin: border-box;
+background-size: contain;
+height:100%;
+
+}
+
+.ui.carousal .glide-arrow{
+display:inline-block;
+position: relative;
+top:45%;
+ width:16px;
+    height:28px;
+}
+.ui.carousal .glide-arrow.glide-arrow-left{
+    background-image: url('./../img/glide-arrows-inverted.png');
+    float: left;
+}
+
+.ui.carousal .glide-arrow.glide-arrow-right{
+    background-position-x: 16px;
+    float:right;
+    background-image: url('./../img/glide-arrows-inverted.png');
+}
