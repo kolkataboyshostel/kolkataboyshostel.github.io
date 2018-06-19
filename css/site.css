@@ -1,12 +1,51 @@
-.banner{
-    background-image: url("./../img/banner.jpg");
-    background-repeat: no-repeat;
+
+.container.banner{
+background-image: url("./../img/banner.jpg");
+background-repeat: no-repeat;
 background-position: center;
 background-origin: border-box;
 background-size: cover;
 height:700px;
 width:100%;
 }
+.container.banner .dimmerback{
+background-color:rgba(100,100,100,0.5); 
+height:100%;
+padding-left:50px;
+padding-right:50px;
+}
+.container.banner .caption{
+
+color:#f0b300;
+font-weight:100;
+font-stretch:100%;
+padding-top:100px;
+font-size:5.5em;
+}
+
+.container.banner .caption.mobile.only{
+padding-top:150px;
+font-size:3.5em;
+}
+
+.container.banner .caption.computer.only{
+padding-top:150px;
+font-size:4em;
+}
+
+.container.banner .sub-caption{
+    color:white;
+    font-size: 3em;
+}
+
+.container.banner .sub-caption.mobile.only{
+      font-size: 2em;
+}
+
+.container.banner .sub-caption.computer.only{
+      font-size: 2em;
+}
+
 
 .grid.photo-grid{
     padding-top:30px;
@@ -105,6 +144,8 @@ position: relative;
 top:45%;
  width:16px;
     height:28px;
+    background-color: white;
+
 }
 .ui.carousal .glide-arrow.glide-arrow-left{
     background-image: url('./../img/glide-arrows-inverted.png');
@@ -115,4 +156,9 @@ top:45%;
     background-position-x: 16px;
     float:right;
     background-image: url('./../img/glide-arrows-inverted.png');
+}
+
+.address p{
+    padding:0;
+    margin:0;
 }
