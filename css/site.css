@@ -180,7 +180,7 @@ position: absolute;
 
 }
 
-.ui.carousal .ui.segment{
+.ui.carousal .ui.segment.carousal-item-container{
     height:100%;
 }
 
@@ -188,29 +188,10 @@ position: absolute;
 background-repeat: no-repeat;
 background-position: center;
 background-origin: border-box;
-background-size: contain;
+background-size: auto;
 height:100%;
 
-}
 
-.ui.carousal .glide-arrow{
-display:inline-block;
-position: relative;
-top:45%;
- width:16px;
-    height:28px;
-    background-color: white;
-
-}
-.ui.carousal .glide-arrow.glide-arrow-left{
-    background-image: url('./../img/glide-arrows-inverted.png');
-    float: left;
-}
-
-.ui.carousal .glide-arrow.glide-arrow-right{
-    background-position-x: 16px;
-    float:right;
-    background-image: url('./../img/glide-arrows-inverted.png');
 }
 
 .address p{

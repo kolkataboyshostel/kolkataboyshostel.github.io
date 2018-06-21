@@ -44,7 +44,7 @@
                                     <i class="sidebar icon"></i> Menu
                               </a>
                               <div class="item" style="width:100%;font-size:1.5em;background-color: blue">Endeavour boys hostel</div>
-                             
+
                         </div>
                         <div class="content">
                               <h1 class="caption widescreen large screen only">Take advantage of the budget oriented accomodation</h1>
@@ -330,10 +330,24 @@
             </div>
 
             <div class="ui modal carousal">
-                  <div class="ui segment">
+                  <div class="ui segment inverted top attached ">
+                        <div class="ui grid centered">
+                              <div class="six column row">
+                                    <div class=" column">
+                                          <i class="ui arrow  circle left icon huge glide-arrow glide-arrow-left"></i>
+                                    </div>
+                                    <div class=" column">
+                                          <i class="ui arrow  circle right icon huge glide-arrow glide-arrow-right" style="float:right"></i>
+                                    </div>
+                              </div>
+
+                        </div>
+
+
+                  </div>
+                  <div class="ui segment attached carousal-item-container">
                         <div class="carousal-item">
-                              <div class="glide-arrow glide-arrow-left"></div>
-                              <div class="glide-arrow glide-arrow-right"></div>
+
                         </div>
                   </div>
             </div>
@@ -411,7 +425,7 @@
                               carousalItem = $('.ui.carousal .ui.segment .carousal-item');
                               carousalItem.attr("carousal-image-id", $(element).attr('id'));
                               carousalItem.attr("counter", $(element).attr('counter'));
-                              carousalItem.css('background-image', 'url(./../img/' + carousalItem.attr('carousal-image-id') + '.jpeg)')
+                              carousalItem.css('background-image', 'url(./img/' + carousalItem.attr('carousal-image-id') + '.jpeg)')
 
                               $('.ui.modal.carousal').modal('show');
                         });
@@ -429,7 +443,7 @@
                               index = index - 1;
                         }
 
-                        carousalItem.css('background-image', 'url(./../img/image' + index + '.jpeg)');
+                        carousalItem.css('background-image', 'url(./img/image' + index + '.jpeg)');
                         carousalItem.attr("carousal-image-id", 'image' + index);
                         carousalItem.attr("counter", index);
                   })
@@ -446,7 +460,7 @@
                               index = index + 1;
                         }
 
-                        carousalItem.css('background-image', 'url(./../img/image' + index + '.jpeg)');
+                        carousalItem.css('background-image', 'url(./img/image' + index + '.jpeg)');
                         carousalItem.attr("carousal-image-id", 'image' + index);
                         carousalItem.attr("counter", index);
                   });
@@ -457,7 +471,7 @@
                   ;
             });
       </script>
-
+      <!--
       <script>
             var map;
 
@@ -483,6 +497,7 @@
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhpi6ppyOQH6ry9k2SMgOmQB7nsnPsG90&callback=initMap" async
             defer></script>
+            -->
 </body>
 
 </html>
