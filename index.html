@@ -330,21 +330,19 @@
             </div>
 
             <div class="ui modal carousal">
-                  <div class="ui segment inverted top attached ">
-                        <div class="ui grid centered">
-                              <div class="eight column row">
-                                    <div class=" column">
-                                          <i class="ui arrow  circle left icon huge glide-arrow glide-arrow-left"></i>
-                                    </div>
-                                    <div class=" column">
-                                          <i class="ui arrow  circle right icon huge glide-arrow glide-arrow-right"></i>
-                                    </div>
-                              </div>
-
-                        </div>
-
-
-                  </div>
+                 <div class="ui top attached two inverted item column menu borderless">
+                        <a class="item">
+                   <i class="ui arrow circle left icon huge glide-arrow glide-arrow-left"></i>
+            </a>
+            <a class="item">
+                   <i class="ui arrow circle right icon huge glide-arrow glide-arrow-left"></i>
+            </a>
+            <div class="right menu">
+            <a class="item">
+                   <i class="ui window close icon huge "></i>
+            </a>
+            </div>
+                 </div>
                   <div class="ui segment attached carousal-item-container">
                         <div class="carousal-item">
 
@@ -464,6 +462,10 @@
                         carousalItem.attr("carousal-image-id", 'image' + index);
                         carousalItem.attr("counter", index);
                   });
+
+                   $('.carousal .close').on('click', function () {
+ $('.ui.modal.carousal').modal('hide');
+                   });
 
                   //  $('.ui.sidebar').sidebar('toggle');
 
