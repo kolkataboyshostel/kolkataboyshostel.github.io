@@ -163,6 +163,16 @@
     }
 }
 
+.ui.card.fixsize{
+    height:255px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.card.fixsize{
+    height:330px;
+}
+}
+
 .grid.photo-grid {
     padding-top: 30px;
 }
