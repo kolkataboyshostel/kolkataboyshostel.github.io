@@ -57,7 +57,7 @@
             <div class="ui stackable three column grid container equal width" style="text-align:center;margin-top:-100px;padding-left:20px;padding-right:20px">
                   <div class="row">
                         <div class="column">
-                              <div class="ui fluid card fixsize">
+                              <div class="ui fluid card fixsize" >
                                     <div class="content">
                                           <div class="header">Amenities</div>
                                     </div>
@@ -99,21 +99,21 @@
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div class="event">
+                                               <div class="event mobile hidden">
                                                       <div class="content">
                                                             <div class="summary">
                                                                   &nbsp;
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div class="event">
+                                                <div class="event mobile hidden">
                                                       <div class="content">
                                                             <div class="summary">
                                                                   &nbsp;
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div class="event">
+                                                <div class="event mobile hidden">
                                                       <div class="content">
                                                             <div class="summary">
                                                                   &nbsp;
@@ -128,7 +128,7 @@
                         </div>
                         <div class="column">
 
-                              <div class="ui fluid card fixsize">
+                              <div class="ui fluid card fixsize" >
                                     <div class="content">
                                           <div class="header">Salient Features</div>
                                     </div>
@@ -179,7 +179,7 @@
                         </div>
                         <div class="column">
 
-                              <div class="ui fluid card fixsize">
+                              <div class="ui fluid card fixsize" >
                                     <div class="content">
                                           <div class="header">Accomodation Type</div>
                                     </div>
@@ -221,14 +221,14 @@
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div class="event">
+                                                <div class="event mobile hidden">
                                                       <div class="content">
                                                             <div class="summary">
                                                                   &nbsp;
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div class="event">
+                                                <div class="event mobile hidden">
                                                       <div class="content">
                                                             <div class="summary">
                                                                   &nbsp;
@@ -688,27 +688,27 @@
       </script>
 
       <script>
-            var map;
+             var map;
 
-            function initMap() {
-                  map = new google.maps.Map(document.getElementById('map'), {
-                        center: {
-                              lat: 22.385702
-                              , lng: 88.414855
-                        }
-                        , zoom: 18
-                        ,
-                  });
-                  var marker = new google.maps.Marker({
-                        position: {
-                              lat: 22.385702
-                              , lng: 88.414855
-                        }
-                        , map: map
-                        , title: 'Avanzar IT Consulting Private Ltd.'
-                  });
+             function initMap() {
+                   map = new google.maps.Map(document.getElementById('map'), {
+                         center: {
+                               lat: 22.385702
+                               , lng: 88.414855
+                         }
+                         , zoom: 18
+                         ,
+                   });
+                   var marker = new google.maps.Marker({
+                         position: {
+                               lat: 22.385702
+                               , lng: 88.414855
+                         }
+                         , map: map
+                         , title: 'Avanzar IT Consulting Private Ltd.'
+                   });
 
-            }
+             }
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhpi6ppyOQH6ry9k2SMgOmQB7nsnPsG90&callback=initMap" async
             defer></script>

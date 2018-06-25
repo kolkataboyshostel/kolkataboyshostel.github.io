@@ -22,28 +22,27 @@
 
 .ui.menu.mobile-menu .item.item-right-content {
     background-color: blue;
- 
 }
 
 .ui.menu.mobile-menu .item.item-right-content.lastitem {
     width: 100%;
-
 }
 
 /* Tablet / iPad Portrait */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-   .ui.menu.mobile-menu .item.item-right-content{
-        font-size: 1.5em;
-   }
-}
 
-/* Computer / Desktop / iPad Landscape */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .ui.menu.mobile-menu .item.item-right-content{
- font-size: 2em;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.menu.mobile-menu .item.item-right-content {
+        font-size: 1.5em;
     }
 }
 
+/* Computer / Desktop / iPad Landscape */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ui.menu.mobile-menu .item.item-right-content {
+        font-size: 2em;
+    }
+}
 
 .section-title {
     color: #410936;
@@ -129,6 +128,7 @@
 }
 
 /* Tablet / iPad Portrait */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .container.banner .caption {
         padding-top: 150px;
@@ -137,6 +137,7 @@
 }
 
 /* Computer / Desktop / iPad Landscape */
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .container.banner .caption {
         padding-top: 150px;
@@ -163,14 +164,22 @@
     }
 }
 
-.ui.card.fixsize{
-    height:255px;
+.ui.card.fixsize {
+    height: 255px;
 }
 
+/* Tablet / iPad Portrait */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .ui.card.fixsize{
-    height:330px;
+    .ui.card.fixsize {
+        height: 330px;
+    }
 }
+
+/* Mobile screen */
+@media only screen and (max-width: 767px) {
+    .ui.card.fixsize {
+        height: auto;
+    }
 }
 
 .grid.photo-grid {
