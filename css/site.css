@@ -101,7 +101,7 @@
 
 @media only screen and (max-width: 767px) {
     .container.banner .caption {
-        padding-top: 250px;
+        padding-top: 200px;
         font-size: 2.5em;
     }
     .container.banner .sub-caption {
@@ -130,19 +130,21 @@
     }
 }
 
-/* Large Monitor */
-
-@media only screen and (min-width: 1200px) and (max-width: 1919px) {
-    .container.banner {
-        background-position-y: -420px;
-    }
-}
 
 /* Widescreen Monitor */
 
 @media only screen and (min-width: 1920px) {
     .container.banner {
         background-position-y: -420px;
+    }
+}
+
+/* Mobile screen */
+
+@media only screen and (max-width: 767px) {
+    .container.banner {
+        background-position-x: -420px;
+    
     }
 }
 
