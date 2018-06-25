@@ -21,8 +21,12 @@
 }
 
 .ui.menu.mobile-menu .item.item-right-content {
+    background-color: blue;
+    font-size: 1.1em;
+}
+
+.ui.menu.mobile-menu .item.item-right-content.lastitem {
     width: 100%;
-    font-size: 1.5em;
     background-color: blue;
 }
 
@@ -130,7 +134,6 @@
     }
 }
 
-
 /* Widescreen Monitor */
 
 @media only screen and (min-width: 1920px) {
@@ -144,7 +147,6 @@
 @media only screen and (max-width: 767px) {
     .container.banner {
         background-position-x: -420px;
-    
     }
 }
 
