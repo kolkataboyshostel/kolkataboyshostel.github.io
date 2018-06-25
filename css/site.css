@@ -22,13 +22,28 @@
 
 .ui.menu.mobile-menu .item.item-right-content {
     background-color: blue;
-    font-size: 1.1em;
+ 
 }
 
 .ui.menu.mobile-menu .item.item-right-content.lastitem {
     width: 100%;
-    background-color: blue;
+
 }
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .ui.menu.mobile-menu .item.item-right-content{
+        font-size: 1.5em;
+   }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ui.menu.mobile-menu .item.item-right-content{
+ font-size: 2em;
+    }
+}
+
 
 .section-title {
     color: #410936;
@@ -114,7 +129,6 @@
 }
 
 /* Tablet / iPad Portrait */
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .container.banner .caption {
         padding-top: 150px;
@@ -123,7 +137,6 @@
 }
 
 /* Computer / Desktop / iPad Landscape */
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .container.banner .caption {
         padding-top: 150px;
